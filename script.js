@@ -12,7 +12,7 @@
     newDivToAdd.classList.add("addable");
 
     var newHeaderToAdd = document.createElement("h3");
-    var textContent = document.createTextNode("Text added dynamically");
+    var textContent = document.createTextNode("Text added");
 
     // adding text to the heading tag
     newHeaderToAdd.appendChild(textContent);
